@@ -1,5 +1,6 @@
-import fs from 'fs';
-import winston from 'winston';
+const fetch = require('node-fetch');
+const fs = require('fs');
+const winston = require('winston');
 
 // Set up logging
 const logger = winston.createLogger({
@@ -19,8 +20,6 @@ const HMAC_URL = "https://tplayapi.code-crafters.app/321codecrafters/hmac.json";
 const RETRIES = 3;
 
 async function fetchApi(url, retries) {
-  const { default: fetch } = await import('node-fetch');
-
   for (let attempt = 0; attempt < retries; attempt++) {
     try {
       const response = await fetch(url);
@@ -69,7 +68,7 @@ async function main() {
   if (fetcherData && hmacData) {
     const m3u8Content = generateM3U8(fetcherData.data, hmacData.data);
     fs.writeFileSync('ts.m3u', m3u8Content);
-    logger.info("M3U8 playlist generated and saved to ts.m3u");
+    logger.info("M3U8 playlist generated and saved to playlist.m3u8");
   } else {
     logger.error("Failed to fetch data from API");
   }
