@@ -34,7 +34,7 @@ jobs:
           git commit -m 'Update M3U8 playlist'
           git push origin ${{ github.ref }}
 
-          if [ "${{ github.ref }}" = "refs/heads/main" ]; then
+          if [ "${{ github.ref }}" = "refs/heads/tat" ]; then
             git fetch origin gh-pages
             git checkout gh-pages
             cp ts.m3u .
