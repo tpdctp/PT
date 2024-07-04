@@ -35,3 +35,10 @@ jobs:
           git push origin ${{ github.ref }}
         env:
           GITHUB_TOKEN: ${{ secrets.BINDAAS }}
+
+      - name: Create Tag to Trigger Second Workflow
+        run: |
+          git tag -f trigger-jekyll-gh-pages
+          git push origin trigger-jekyll-gh-pages --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.BINDAAS }}
