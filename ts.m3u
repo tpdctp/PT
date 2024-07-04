@@ -39,7 +39,7 @@ https://bpweb5.akamaized.net/bpk-tv/irdeto_com_Channel_876/output/manifest.mpd|c
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"WRV0a/aYtMeHDLvq3a/PTg","kid":"+CYN/wRfUpmkgu72b4lOrQ"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
-#EXTHTTP:{"cookie":"hdntl=exp=1720167205~acl=%2f*~data=hdntl~hmac=75911021a6a28ef39a9eb42e12df076a3801fcbf688bfffaa1fd9a43e3625ab4"}
+#EXTHTTP:{"cookie":"hdntl=exp=1720167205~acl=%2f*~data=hdntl~hmac=75911021a6a28ef39a9eb42e12df076a3801fcbf688bfffaa1fd9a43e3625ab3"}
 https://bpweb3.akamaized.net/bpk-tv/irdeto_com_Channel_1785/output/manifest.mpd|cookie:hdntl=exp=1720167205~acl=%2f*~data=hdntl~hmac=75911021a6a28ef39a9eb42e12df076a3801fcbf688bfffaa1fd9a43e3625ab4
 
 #EXTINF:-1 tvg-id="8" group-title="Entertainment, HD", tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-25307-jhrhflww-v1/imageContent-25307-jhrhflww-m1.png", STAR Plus HD
