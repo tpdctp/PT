@@ -35,12 +35,10 @@ jobs:
           git push origin ${{ github.ref }}
         env:
           GITHUB_TOKEN: ${{ secrets.BINDAAS }}
-
-        deploy:
-         environment:
-         name: github-pages
-         url: ${{ steps.deployment.outputs.page_url }}
-         runs-on: ubuntu-latest
+          
+      - name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
+         
          steps1:
       - name: Checkout
         uses: actions/checkout@v4
