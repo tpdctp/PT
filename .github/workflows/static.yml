@@ -35,3 +35,15 @@ jobs:
           git push origin ${{ github.ref }}
         env:
           GITHUB_TOKEN: ${{ secrets.BINDAAS }}
+
+      - name: Deploy to GitHub Pages
+        if: ${{ github.ref == 'refs/heads/main' }}
+        run: |
+          git fetch origin gh-pages
+          git checkout gh-pages
+          cp ts.m3u .
+          git add ts.m3u
+          git commit -m 'Deploy updated M3U8 playlist'
+          git push origin gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.BINDAAS }}
