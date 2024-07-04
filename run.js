@@ -17,7 +17,7 @@ const logger = winston.createLogger({
 // Constants
 const API_URL = "https://tplayapi.code-crafters.app/321codecrafters/fetcher.json";
 const HMAC_URL = "https://tplayapi.code-crafters.app/321codecrafters/hmac.json";
-const RETRIES = 4;
+const RETRIES = 3;
 
 async function fetchApi(url, retries) {
   for (let attempt = 0; attempt < retries; attempt++) {
