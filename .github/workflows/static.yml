@@ -29,20 +29,14 @@ jobs:
           git config --global user.email "${{ secrets.USER_EMAIL }}"
 
       - name: Commit and Push Changes
+        if: ${{ github.ref == 'refs/heads/tat' }}
         run: |
           git add ts.m3u
           git commit -m 'Update M3U8 playlist'
           git push origin ${{ github.ref }}
         env:
           GITHUB_TOKEN: ${{ secrets.BINDAAS }}
-      - name: Deploy Changes
-        if: ${{ github.ref == 'refs/heads/tat' }}
-        run: |
-          git add ts.m3u
-          git commit -m 'Deploy updated M3U8 playlist'
-          git push origin tat
-        env:
-          GITHUB_TOKEN: ${{ secrets.BINDAAS }}
+      
           
      
       
