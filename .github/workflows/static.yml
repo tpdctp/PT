@@ -33,15 +33,14 @@ jobs:
           git add ts.m3u
           git commit -m 'Update M3U8 playlist'
           git push origin ${{ github.ref }}
-
-          if [ "${{ github.ref }}" = "refs/heads/tat" ]; then
-            git fetch origin gh-pages
-            git checkout gh-pages
-            cp ts.m3u .
-            git add ts.m3u
-            git commit -m 'Deploy updated M3U8 playlist'
-            git push origin gh-pages
-          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.BINDAAS }}
+      - name: Deploy Changes
+        if: ${{ github.ref == 'refs/heads/tat' }}
+        run: |
+          git add ts.m3u
+          git commit -m 'Deploy updated M3U8 playlist'
+          git push origin tat
         env:
           GITHUB_TOKEN: ${{ secrets.BINDAAS }}
           
