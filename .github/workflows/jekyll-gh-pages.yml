@@ -1,9 +1,8 @@
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
-  push:
-    tags:
-      - trigger-jekyll-gh-pages
+  repository_dispatch:
+    types: [trigger-jekyll-build]
   workflow_dispatch:
 
 permissions:
