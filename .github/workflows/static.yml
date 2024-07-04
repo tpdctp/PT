@@ -32,7 +32,6 @@ jobs:
         run: |
           git add ts.m3u
           git commit -m 'Update M3U8 playlist'
-          git pull --rebase origin tat
-          git push origin tat
+          git push origin ${{ github.ref }}
         env:
           GITHUB_TOKEN: ${{ secrets.BINDAAS }}
