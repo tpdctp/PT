@@ -1,42 +1,51 @@
-const strips = [...document.querySelectorAll(".strip")];
-const numberSize = "8"; // in rem
+(function() {
 
-// highlight number i on strip s for 1 second
-function highlight(strip, d) {
-  strips[strip]
-    .querySelector(`.number:nth-of-type(${d + 1})`)
-    .classList.add("pop");
-
-  setTimeout(() => {
-    strips[strip]
-      .querySelector(`.number:nth-of-type(${d + 1})`)
-      .classList.remove("pop");
-  }, 950); // causes ticking
-}
-
-function stripSlider(strip, number) {
-  let d1 = Math.floor(number / 10);
-  let d2 = number % 10;
-
-  strips[strip].style.transform = `translateY(${d1 * -numberSize}vmin)`;
-  highlight(strip, d1);
-  strips[strip + 1].style.transform = `translateY(${d2 * -numberSize}vmin)`;
-  highlight(strip + 1, d2);
-}
-
-setInterval(() => {
-  // get new time
-  const time = new Date();
-
-  // get h,m,s
-  const hours = time.getHours();
-  const mins = time.getMinutes();
-  const secs = time.getSeconds();
-
-  // slide strips
-  stripSlider(0, hours);
-  stripSlider(2, mins);
-  stripSlider(4, secs);
-
-  // highlight numbers
-}, 1000);
+  
+  var months = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+],
+days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  
+	function getTime() {
+    
+		var date = new Date(),
+    second  = date.getSeconds() ,
+    minute  = date.getMinutes() ,
+    hour    = date.getHours() ,
+    time = date.toLocaleString('en-US', { hour: 'numeric',minute:'numeric', hour12: true }),
+     day =  date.getDay() ,
+    month = date.getMonth() ,
+    date = date.getDate() +' . '+ months[month],
+        
+		ds = second * -6,
+		dm = minute * -6,
+		dh = hour * -30;
+    
+		$('.second').css('transform', 'rotate(' + ds + 'deg)');
+    $('.minute').css('transform', 'rotate(' + dm + 'deg)');
+    $('.hour').css('transform', 'rotate(' + dh + 'deg)');
+    
+    $('.time').text(time);
+    $('.day').text(days[day]);
+    $('.date').text( date )
+	}
+  
+  function dailer( selector , size){
+     for(var s = 0; s < 60 ; s++){
+      $(selector).append('<span style="transform: rotate('+ 6 * s +'deg) translateX('+ size +'px)">'+s+'</span>')
+    }
+  }
+  
+  dailer( '.second' , 195);
+  dailer( '.minute' , 145);
+  dailer( '.dail' , 230);
+  
+  for(var s = 1; s < 13 ; s++){
+      $('.hour').append('<span style="transform: rotate('+ 30 * s +'deg) translateX(100px)">'+s+'</span>')
+    }
+  
+  
+  setInterval(getTime, 1000);
+  getTime();
+  
+} ());
