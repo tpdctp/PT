@@ -79,7 +79,7 @@ https://bpweb7.akamaized-staging.net/bpk-tv/irdeto_com_Channel_307/output/manife
 
 #EXTINF:-1 tvg-id="559" group-title="Entertainment, Comedy", tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-12081-j9oc38xc-v8/imageContent-12081-j9oc38xc-m7.png", SONY SAB
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"yXR/1zHfkzSvx5zqbyJ1lw","kid":"eR6u8LO8UDSDOzepVL3EEw"}],"type":"temporary"}
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"GcR3ZzpxxDdBbVwfOTj5hw","kid":"aFwcxawjWSOA1j33riWV3g"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"hdntl=exp=1721114950~acl=%2f*~data=hdntl~hmac=57cb45bbf28eb5e918bc8dfb9a8ce3c39849f932638de64825f24a5dc4ae324b"}
 https://bpweb2.akamaized.net/bpk-tv/irdeto_com_Channel_126/output/manifest.mpd|cookie:hdntl=exp=1721114950~acl=%2f*~data=hdntl~hmac=57cb45bbf28eb5e918bc8dfb9a8ce3c39849f932638de64825f24a5dc4ae324b
@@ -2158,7 +2158,7 @@ https://bpweb5.akamaized.net/bpk-tv/irdeto_com_Channel_426/output/manifest.mpd|c
 
 #EXTINF:-1 tvg-id="658" group-title="Entertainment", tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-30959-jky1nic8-v2/imageContent-30959-jky1nic8-m3.png", Sony Marathi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"wjH5y/mj+7Dr1d8b6ZK/4Q","kid":"L2eUzzA+Xr+OVsi7OP0VhA"}],"type":"temporary"}
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"/B3b/4P40fv+ZX10abYmFA","kid":"NqfJAFnjWUOZuIWmnBXp/A"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"hdntl=exp=1721114950~acl=%2f*~data=hdntl~hmac=57cb45bbf28eb5e918bc8dfb9a8ce3c39849f932638de64825f24a5dc4ae324b"}
 https://bpweb4.akamaized.net/bpk-tv/irdeto_com_Channel_892/output/manifest.mpd|cookie:hdntl=exp=1721114950~acl=%2f*~data=hdntl~hmac=57cb45bbf28eb5e918bc8dfb9a8ce3c39849f932638de64825f24a5dc4ae324b
@@ -2298,7 +2298,7 @@ https://bpweb6.akamaized.net/bpk-tv/irdeto_com_Channel_736/output/manifest.mpd|c
 
 #EXTINF:-1 tvg-id="34" group-title="Entertainment", tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-94-j5fjveio-v3/imageContent-94-j5fjveio-m2.png", SONY AATH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"EiA1I7VCaM1cgUZ9lwUQSg","kid":"65hkbkUqWau3e4wr/NP2Zg"}],"type":"temporary"}
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"mXl/A2lyOiV/v4cPplumXw","kid":"H8rlnRR8XIidVZ6l3aKkQA"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"hdntl=exp=1721114950~acl=%2f*~data=hdntl~hmac=57cb45bbf28eb5e918bc8dfb9a8ce3c39849f932638de64825f24a5dc4ae324b"}
 https://bpweb4.akamaized.net/bpk-tv/irdeto_com_Channel_285/output/manifest.mpd|cookie:hdntl=exp=1721114950~acl=%2f*~data=hdntl~hmac=57cb45bbf28eb5e918bc8dfb9a8ce3c39849f932638de64825f24a5dc4ae324b
