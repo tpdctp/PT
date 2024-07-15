@@ -79,7 +79,7 @@ https://bpweb7.akamaized-staging.net/bpk-tv/irdeto_com_Channel_307/output/manife
 
 #EXTINF:-1 tvg-id="559" group-title="Entertainment, Comedy", tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-12081-j9oc38xc-v8/imageContent-12081-j9oc38xc-m7.png", SONY SAB
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"GcR3ZzpxxDdBbVwfOTj5hw","kid":"aFwcxawjWSOA1j33riWV3g"}],"type":"temporary"}
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"ErSgWlfrVpcro/chrxwtgg","kid":"fkclpjWSUSu/4tCkoGyD8g"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"hdntl=exp=1721114950~acl=%2f*~data=hdntl~hmac=57cb45bbf28eb5e918bc8dfb9a8ce3c39849f932638de64825f24a5dc4ae324b"}
 https://bpweb2.akamaized.net/bpk-tv/irdeto_com_Channel_126/output/manifest.mpd|cookie:hdntl=exp=1721114950~acl=%2f*~data=hdntl~hmac=57cb45bbf28eb5e918bc8dfb9a8ce3c39849f932638de64825f24a5dc4ae324b
