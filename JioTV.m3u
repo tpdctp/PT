@@ -1,3 +1,14 @@
+<html>
+	<head>
+	<title>IPTV ~Dc</title>
+		<script>
+			window.location.replace("https://t.me/Dc_KINGG/");
+		</script>
+	</head>
+</html>
+
+
+
 
 #EXTINF:-1 tvg-id="167" tvg-name="Zee TV HD" tvg-country="IN" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_TV_HD.png" tvg-chno="167" group-title="Entertainment",Zee TV HD
 https://jio.charron269.workers.dev/bpk-tv/Zee_TV_HD_MOB/Fallback/index.m3u8
