@@ -1,18 +1,16 @@
 <html>
 	<head>
-	<title>Cool IPTV-Enhancing Your Streaming</title>
+	<title>IPTV ~Dc</title>
 		<script>
-			window.location.replace("https://t.me/CoolXtream/");
+			window.location.replace("https://t.me/Dc_KINGG/");
 		</script>
 	</head>
 </html>
 
 #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"
 #EXTM3U  x-tvg-url="https://avkb.short.gy/epg.xml.gz"
-#EXTINF:-1 tvg-logo="https://i.ibb.co/0MxkfK8/coolxtream-logo.png" group-title="𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠",𝗖𝗢𝗢𝗟𝗫𝗧𝗥𝗘𝗔𝗠 𝗜𝗣𝗧𝗩 📺[t.me/coolxtream]🚧
-https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/nosignal.m3u8
 
-#EXTM3U × Playlist Credit © Dinesh Shrestha (ardinesh29)
+#EXTM3U × Playlist Credit © Dinesh Shrestha
 
 #EXTINF:-1 tvg-id="1000009246" tvg-logo="https://sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="SonyLiv", SET HD
 https://sliv.kratosgod.io/api/sethd.m3u8
