@@ -15,8 +15,8 @@ const logger = winston.createLogger({
 });
 
 // Constants
-const API_URL = "https://tplayapi.code-crafters.app/321codecrafters/fetcher.json";
-const HMAC_URL = "https://tplayapi.code-crafters.app/321codecrafters/hmac.json";
+const API_URL = "https://fox.toxic-gang.xyz/tata/channels";
+const HMAC_URL = "https://fox.toxic-gang.xyz/tata/hmac";
 const RETRIES = 3;
 
 async function fetchApi(url, retries) {
